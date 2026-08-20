@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    ul {
+        display: flex;
+        list-style: none;
+
+        a {
+            border: 2px solid black;
+        }
+    }
+}
+
+main {
+    ul {
+        display: flex;
+        list-style: none;
+
+        li {
+            border: 2px solid black;
+        }
+    }
+
+    .r {
+        border: 2px solid black;
+    }
+}
