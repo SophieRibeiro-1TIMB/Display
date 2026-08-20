@@ -4,27 +4,55 @@
     box-sizing: border-box;
 }
 header {
+    margin-top: 5px;
     ul {
         display: flex;
         list-style: none;
 
         a {
+            display: inline-block;
+            padding-bottom: 20px;
+            padding-inline: 35px;
+            margin-right: 3px;
+            margin-bottom: 15px;
             border: 2px solid black;
         }
     }
 }
 
 main {
+    h1 {
+        margin-bottom: 15px;
+    }
+    h2 {
+        margin-bottom: 15px;
+    }
     ul {
         display: flex;
         list-style: none;
+        margin-bottom: 15px;
 
         li {
+            display: inline-block;
+            padding-bottom: 150px;
+            padding-right: 200px;
+            margin-right: 4px;
             border: 2px solid black;
         }
     }
 
+    p {
+        margin-bottom: 15px;
+
+        span {
+            border: 2px solid black;
+        }
+    }
+    
+
     .r {
+        padding-top: 15px;
+        padding-bottom: 15px;
         border: 2px solid black;
     }
 }
